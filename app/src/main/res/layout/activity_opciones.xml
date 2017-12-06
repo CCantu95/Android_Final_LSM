@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itesm.mx.javafinal.MenuActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Elige una categoría"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#020e14"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/buton_animales"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Animales"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/buton_familia"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Familia"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/buton_colores"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Colores"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/buton_comida"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Comida"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/buton_abc"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Abecedario"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/buton_fecha"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Fecha"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buton_num"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:text="Número"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

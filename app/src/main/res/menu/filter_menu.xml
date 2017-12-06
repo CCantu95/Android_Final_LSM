@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="itesm.mx.proyecto_javex.DiccionarioFragment">
+
+    <item
+        android:id="@+id/todos"
+        android:title="@string/filter_todos"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/abecedario"
+        android:title="@string/filter_abecedario"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/animales"
+        android:title="@string/filter_animales"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/colores"
+        android:title="@string/filter_colores"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/comida"
+        android:title="@string/filter_comida"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fechas"
+        android:title="@string/filter_dias_meses"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/familia"
+        android:title="@string/filter_familia"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/numeros"
+        android:title="@string/filter_numeros"
+        app:showAsAction="never"/>
+
+</menu>
