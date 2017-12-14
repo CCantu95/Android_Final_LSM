@@ -1,6 +1,4 @@
-# Android_Final_LSM
-
-Aplicación de Lengua de Señas Mexicana en Android.
+# Aplicación de Lengua de Señas Mexicana en Android
 
 ### Descripción
 
